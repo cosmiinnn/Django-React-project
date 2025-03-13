@@ -2,7 +2,8 @@ schemaVersion: 1.0
 
 endpoints:
   - name: "restapi"
-    port: 8000
+    service:
+      port: 8000
     type: REST
     networkVisibility: Public
     context: /
